@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Count Your Dzikir Menu-->
+        <scene sceneID="hNz-n2-bh7">
+            <objects>
+                <viewController id="9pv-A4-QxB" customClass="FirstViewController" customModule="CountYourDzikir" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Back70" translatesAutoresizingMaskIntoConstraints="NO" id="B2G-5q-jwk">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ht9-Ke-J2v">
+                                <rect key="frame" x="84" y="302" width="207" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Button"/>
+                                <connections>
+                                    <segue destination="qgc-D7-vH9" kind="modal" id="9Lw-n5-Ypk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5cq-ft-jWu">
+                                <rect key="frame" x="84" y="372" width="207" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Button"/>
+                                <connections>
+                                    <segue destination="Ule-ct-qrz" kind="modal" id="2tW-if-JfS"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Subhanallah" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xlf-jk-Xmb">
+                                <rect key="frame" x="140" y="323" width="94" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Allahu Akbar" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FFY-MX-hqS">
+                                <rect key="frame" x="139" y="393" width="97" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UKu-mO-LF8">
+                                <rect key="frame" x="84" y="232" width="207" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Button"/>
+                                <connections>
+                                    <segue destination="lR5-Fg-Vfs" kind="modal" id="ZZS-QJ-pX6"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Alhamdulillah" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ib-Lg-xa3">
+                                <rect key="frame" x="136" y="253" width="102" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Count Your Dzikir Menu" id="auh-iq-Pul"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1465" y="-321"/>
+        </scene>
+        <!--Hamdalah View Controller-->
+        <scene sceneID="eT2-XG-k8R">
+            <objects>
+                <viewController id="lR5-Fg-Vfs" customClass="HamdalahViewController" customModule="CountYourDzikir" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aaO-9k-RHA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Back70" translatesAutoresizingMaskIntoConstraints="NO" id="MRP-A9-UTL">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6UU-Fp-ibc">
+                                <rect key="frame" x="100" y="113" width="175" height="152"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="75"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="ZWj-hO-HQf">
+                                <rect key="frame" x="140" y="319" width="94" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <action selector="stepperValueChanged:" destination="lR5-Fg-Vfs" eventType="valueChanged" id="5xY-BN-qil"/>
+                                </connections>
+                            </stepper>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Xp-9f-MES">
+                                <rect key="frame" x="16" y="583" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="003-email"/>
+                                <connections>
+                                    <segue destination="BxF-Mf-nhJ" kind="modal" id="3j6-Fd-s9i"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Keutamaan Berdzikir" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="McY-KE-RnI">
+                                <rect key="frame" x="103" y="605" width="256" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="K5u-7g-gzZ">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Alhamdulillah" id="rkJ-Z3-mja">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="Osr-5n-YQC">
+                                            <connections>
+                                                <segue destination="49e-Tb-3d3" kind="modal" id="Ppj-eL-Muc"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="t2Y-Yp-KDq"/>
+                    </view>
+                    <connections>
+                        <outlet property="labelNumber" destination="6UU-Fp-ibc" id="p7V-9y-TXZ"/>
+                        <outlet property="labelStepper" destination="ZWj-hO-HQf" id="7kE-Zi-3MI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="drs-Ox-Etl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2192.8000000000002" y="-322.48875562218893"/>
+        </scene>
+        <!--Subhanallah-->
+        <scene sceneID="XA5-Pg-Tx0">
+            <objects>
+                <viewController id="qgc-D7-vH9" customClass="Subhanallah" customModule="CountYourDzikir" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZMs-Do-cde">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Back70" translatesAutoresizingMaskIntoConstraints="NO" id="fXM-bF-YQH">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iTb-dI-7R4">
+                                <rect key="frame" x="100" y="113" width="175" height="152"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="75"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="f6e-bP-Was">
+                                <rect key="frame" x="140" y="319" width="94" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <action selector="stepperValueChanged:" destination="qgc-D7-vH9" eventType="valueChanged" id="7Kx-CG-J0f"/>
+                                </connections>
+                            </stepper>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5TT-mO-Aqf">
+                                <rect key="frame" x="16" y="583" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="003-email"/>
+                                <connections>
+                                    <segue destination="BxF-Mf-nhJ" kind="modal" id="E59-tR-RFR"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Keutamaan Berdzikir" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="62H-yk-GwW">
+                                <rect key="frame" x="103" y="605" width="256" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="G9N-MS-ZEk">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Subhanallah" id="38J-1o-eso">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="ynu-Oc-lSE">
+                                            <connections>
+                                                <segue destination="49e-Tb-3d3" kind="modal" id="ive-9t-0Uv"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="16j-qC-0pn"/>
+                    </view>
+                    <connections>
+                        <outlet property="labelNumber" destination="iTb-dI-7R4" id="5dW-gF-Up4"/>
+                        <outlet property="labelStepper" destination="f6e-bP-Was" id="Pav-iO-PwJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cfe-aP-GbX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2918" y="-321"/>
+        </scene>
+        <!--Allahu Akbar-->
+        <scene sceneID="OYS-Hs-0AN">
+            <objects>
+                <viewController id="Ule-ct-qrz" customClass="Allahu_Akbar" customModule="CountYourDzikir" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6xh-VI-Bmk">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Back70" translatesAutoresizingMaskIntoConstraints="NO" id="5fu-Ea-r3t">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h1l-bj-3lk">
+                                <rect key="frame" x="100" y="113" width="175" height="152"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="75"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="73o-j7-QDf">
+                                <rect key="frame" x="140" y="319" width="94" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <action selector="stepperValueChanged:" destination="Ule-ct-qrz" eventType="valueChanged" id="mMY-lm-RJw"/>
+                                </connections>
+                            </stepper>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fK5-ic-PKx">
+                                <rect key="frame" x="16" y="583" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="003-email"/>
+                                <connections>
+                                    <segue destination="BxF-Mf-nhJ" kind="modal" id="GxO-5z-w7V"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Keutamaan Berdzikir" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="avM-Jd-op2">
+                                <rect key="frame" x="103" y="605" width="256" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1j4-uB-6cw">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Allahu Akbar" id="jDO-Ak-dga">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="uyj-Pm-alS">
+                                            <connections>
+                                                <segue destination="49e-Tb-3d3" kind="modal" id="U2J-rW-YYf"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="FdU-Sr-BYq"/>
+                    </view>
+                    <connections>
+                        <outlet property="labelNumber" destination="h1l-bj-3lk" id="6M6-vu-TXX"/>
+                        <outlet property="labelStepper" destination="73o-j7-QDf" id="hHB-XH-e2Z"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X6S-Mc-X75" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3638" y="-322"/>
+        </scene>
+        <!--About That-->
+        <scene sceneID="wg7-f3-ORb">
+            <objects>
+                <viewController id="8rJ-Kc-sve" customClass="SecondViewController" customModule="CountYourDzikir" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Back70" translatesAutoresizingMaskIntoConstraints="NO" id="6rD-BW-fmA">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AJY-cY-7yd">
+                                <rect key="frame" x="155" y="381" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="019-smartphone"/>
+                                <connections>
+                                    <segue destination="umh-hW-2xm" kind="modal" id="0oi-zI-jJD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="alE-wc-RNP">
+                                <rect key="frame" x="155" y="183" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="015-tie-1"/>
+                                <connections>
+                                    <segue destination="w1M-YQ-Qry" kind="modal" id="mC6-Ex-7Wu"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About Developer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ciq-Ra-yfs">
+                                <rect key="frame" x="124" y="263" width="129" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About Application" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gfq-ou-faj">
+                                <rect key="frame" x="119" y="461" width="137" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="About That" id="MX4-jc-7dh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1465" y="359"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="KpB-Nx-dZa">
+            <objects>
+                <viewController id="w1M-YQ-Qry" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xUf-wI-FCQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Back70" translatesAutoresizingMaskIntoConstraints="NO" id="QDg-Za-2SZ">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Profile" translatesAutoresizingMaskIntoConstraints="NO" id="f6X-pg-1jL">
+                                <rect key="frame" x="105" y="101" width="164" height="144"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nama :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jQi-AM-KbL">
+                                <rect key="frame" x="16" y="304" width="46" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Kelas :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fsl-Qu-a33">
+                                <rect key="frame" x="16" y="362" width="46" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sekolah :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="phM-tf-P1y">
+                                <rect key="frame" x="16" y="420" width="56" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Asal : " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0qY-9a-in1">
+                                <rect key="frame" x="16" y="478" width="56" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nandhito Sam Pramudana" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="63j-Gp-E4g">
+                                <rect key="frame" x="35" y="333" width="324" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="RPL 2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fSz-qh-qX1">
+                                <rect key="frame" x="35" y="391" width="324" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SMK IDN Madinatul Ilmi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5TM-xX-WlA">
+                                <rect key="frame" x="35" y="449" width="324" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Jatiasih - Bekasi Selatan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3zd-ab-0Am">
+                                <rect key="frame" x="35" y="507" width="324" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oLd-5B-XoD">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="About Developer" id="cKC-6C-KIV">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="IwD-fF-9oO">
+                                            <connections>
+                                                <segue destination="49e-Tb-3d3" kind="modal" id="Dfx-J6-gpw"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="ad0-YP-03u"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8Sz-km-Bkk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2193" y="359"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="CJi-FT-zeR">
+            <objects>
+                <viewController id="umh-hW-2xm" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="v69-qk-Ajb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Back70" translatesAutoresizingMaskIntoConstraints="NO" id="bPn-FF-UrO">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="xX5-rE-pWX">
+                                <rect key="frame" x="63" y="95" width="248" height="477"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Aplikasi Ini adalah aplikasi untuk membantu anda dalam berdzikir. Mungkin diantara kalian ada yang sedang berdzikir dan ketika ditengah dzikir anda anda lupa sudah berapa jumlah kah dikir yang telah anda lafadzkan maka dari itu aplikasi ini yang insha Allah akan memudahkan anda dalam menghitung dzikir anda dan didalam aplikasi ini juga terdapat artikel yang menunjukkan keutamaan berdzikir dan juga aplikasi ini mempunyai desain yang simpel agar memudahkan pengguna menggunakan aplikasi ini</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ov0-TP-Uhx">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="About Application" id="NXM-fL-XAx">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="PmX-F4-lL0">
+                                            <connections>
+                                                <segue destination="49e-Tb-3d3" kind="modal" id="Hvh-av-XQx"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="cIy-KA-pr1"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9l9-aR-UEd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2918" y="359"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="8Xz-cw-P0i">
+            <objects>
+                <viewController id="BxF-Mf-nhJ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9JQ-ZW-wGy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Back70" translatesAutoresizingMaskIntoConstraints="NO" id="iOy-87-GEP">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Hamdalah" translatesAutoresizingMaskIntoConstraints="NO" id="0Q9-Nq-we0">
+                                <rect key="frame" x="135" y="101" width="104" height="82"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="gfe-Ua-TEP">
+                                <rect key="frame" x="47" y="269" width="280" height="378"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Keutamaan Empat Kalimat Mulia
+
+Segala puji bagi Allah, Rabb semesta alam. Shalawat dan salam kepada Nabi kita Muhammad, keluarga dan sahabatnya.
+Dzikir adalah ibadah yang sangat mulia. Di antara fadilahnya adalah bisa lebih menenangkan jiwa. Fadilah lainnya pun amat banyak. Di antara dzikir yang bisa dirutinkan setiap saat, dibaca agar lisan terus basah dengan dzikrullah adalah empat kalimat mulia, yaitu (1) subhanallah, (2) alhamdulillah, (3) laa ilaha illallah, (4) Allahu akbar”.
+
+Berikut beberapa hadits yang membicarakan keutamaan dzikir tersebut:
+
+Pertama:
+
+عَنْ سَمُرَةَ بْنِ جُنْدَبٍ قَالَ قَالَ رَسُولُ اللَّهِ -صلى الله عليه وسلم- « أَحَبُّ الْكَلاَمِ إِلَى اللَّهِ أَرْبَعٌ سُبْحَانَ اللَّهِ وَالْحَمْدُ لِلَّهِ وَلاَ إِلَهَ إِلاَّ اللَّهُ وَاللَّهُ أَكْبَرُ. لاَ يَضُرُّكَ بَأَيِّهِنَّ بَدَأْتَ.
+Dari Samuroh bin Jundub, ia berkata bahwa Rasulullah shallallahu ‘alaihi wa sallam bersabda, “Ada empat ucapan yang paling disukai oleh Allah: (1) Subhanallah, (2) Alhamdulillah, (3) Laa ilaaha illallah, dan (4) Allahu Akbar. Tidak berdosa bagimu dengan mana saja kamu memulai” (HR. Muslim no. 2137).
+
+Kedua:
+
+عَنْ أَبِى هُرَيْرَةَ قَالَ قَالَ رَسُولُ اللَّهِ -صلى الله عليه وسلم- « لأَنْ أَقُولَ سُبْحَانَ اللَّهِ وَالْحَمْدُ لِلَّهِ وَلاَ إِلَهَ إِلاَّ اللَّهُ وَاللَّهُ أَكْبَرُ أَحَبُّ إِلَىَّ مِمَّا طَلَعَتْ عَلَيْهِ الشَّمْسُ ».
+Dari Abu Hurairah, dia berkata, “Rasulullah shallallahu ‘alaihi wasallam telah bersabda: ‘Sesungguhnya membaca “subhanallah walhamdulillah wa laa ilaha illallah wallahu akbar (Maha Suci Allah, segala puji bagi Allah, tiada sesembahan yang berhak disembah selain Allah, dan Allah Maha Besar)” adalah lebih aku cintai daripada segala sesuatu yang terkena sinar matahari.” (HR. Muslim no. 2695). Al Munawi rahimahullah mengatakan, “Segala sesuatu yang dikatakan antara langit dan bumi, atau dikatakan lebih baik dari sesuatu yang terkena sinar matahari atau tenggelamnya, ini adalah ungkapan yang menggambarkan dunia dan seisinya.”[1] Dari sini menunjukkan bahwa keempat kalimat tersebut lebih baik daripada dunia seisinya.
+
+Ketiga:
+
+عَنْ أُمِّ هَانِئٍ بِنْتِ أَبِى طَالِبٍ قَالَ قَالَتْ مَرَّ بِى ذَاتَ يَوْمٍ رَسُولُ اللَّهِ -صلى الله عليه وسلم- فَقُلْتُ يَا رَسُولَ اللَّهِ إِنِّى قَدْ كَبِرْتُ وَضَعُفْتُ – أَوْ كَمَا قَالَتْ – فَمُرْنِى بِعَمَلٍ أَعْمَلُهُ وَأَنَا جَالِسَةٌ. قَالَ « سَبِّحِى اللَّهَ مِائَةَ تَسْبِيحَةٍ فَإِنَّهَا تَعْدِلُ لَكِ مِائَةَ رَقَبَةٍ تُعْتِقِينَهَا مِنْ وَلَدِ إِسْمَاعِيلَ وَاحْمَدِى اللَّهَ مِائَةَ تَحْمِيدَةٍ فَإِنَّهَا تَعْدِلُ لَكِ مِائَةَ فَرَسٍ مُسْرَجَةٍ مُلْجَمَةٍ تَحْمِلِينَ عَلَيْهَا فِى سَبِيلِ اللَّهِ وَكَبِّرِى اللَّهَ مِائَةَ تَكْبِيرَةٍ فَإِنَّهَا تَعْدِلُ لَكِ مِائَةَ بَدَنَةٍ مُقَلَّدَةٍ مُتَقَبَّلَةٍ وَهَلِّلِى اللَّهَ مِائَةَ تَهْلِيلَةٍ – قَالَ ابْنُ خَلَفٍ أَحْسِبُهُ قَالَ – تَمْلأُ مَا بَيْنَ السَّمَاءِ وَالأَرْضِ وَلاَ يُرْفَعُ يَوْمَئِذٍ لأَحَدٍ عَمَلٌ إِلاَّ أَنْ يَأْتِىَ بِمِثْلِ مَا أَتَيْتِ بِهِ ».
+Dari Ummi Hani’ binti Abu Thalib dia berkata, “Rasulullah shallallahu ‘alaihi wa sallam melewatiku pada suatu hari, lalu saya berkata kepada beliau, “Wahai Rasulullah, saya sudah tua dan lemah, maka perintahkanlah kepadaku dengan amalan yang bisa saya lakukan dengan duduk.” Beliau bersabda: “Bertasbihlah kepada Allah seratus kali, karena itu sama dengan kamu membebaskan seratus budak dari keturunan Isma’il. Bertahmidlah kepada Allah seratus kali karena itu sama dengan seratus kuda berpelana yang memakai kekang di mulutnya, yang kamu bawa di jalan Allah. Bertakbirlah kepada Allah dengan seratus takbir karena ia sama dengan seratus unta yang menggunakan tali pengekang dan penurut. Bertahlillah kepada Allah seratus kali.” Ibnu Khalaf berkata; saya mengira beliau bersabda: “Karena ia memenuhi di antara langit dan bumi, dan pada hari ini tidaklah amalan seseorang itu diangkat kecuali akan didatangkan dengan semisal yang kamu lakukan itu.” (HR. Ahmad 6/344. Syaikh Al Albani mengatakan bahwa hadits ini hasan. Lihat Ash Shilsilah Ash Shohihah no. 1316)
+
+Keempat:
+
+عَنْ عَبْدِ اللَّهِ بْنِ عَمْرٍو قَالَ قَالَ رَسُولُ اللَّهِ -صلى الله عليه وسلم- « مَا عَلَى الأَرْضِ رَجُلٌ يَقُولُ لاَ إِلَهَ إِلاَّ اللَّهُ وَاللَّهُ أَكْبَرُ وَسُبْحَانَ اللَّهِ وَالْحَمْدُ لِلَّهِ وَلاَ حَوْلَ وَلاَ قُوَّةَ إِلاَّ بِاللَّهِ إِلاَّ كُفِّرَتْ عَنْهُ ذُنُوبُهُ وَلَوْ كَانَتْ أَكْثَرَ مِنْ زَبَدِ الْبَحْرِ »
+Dari ‘Abdullah bin ‘Amr, Rasulullah shallallahu ‘alaihi wa sallam bersabda, “Tidaklah seorang di muka bumi ini mengucapkan: Laa ilaha illallah, wallahu akbar, subhanallah, wal hamdulillah, wa laa hawla wa laa quwwata illa billah, melainkan dosa-dosanya akan dihapus walaupun sebanyak buih di lautan.” (HR. Ahmad 2/158, sanadnya hasan)
+
+Kelima:
+
+عَنِ ابْنِ مَسْعُودٍ قَالَ قَالَ رَسُولُ اللَّهِ -صلى الله عليه وسلم- « لَقِيتُ إِبْرَاهِيمَ لَيْلَةَ أُسْرِىَ بِى فَقَالَ يَا مُحَمَّدُ أَقْرِئْ أُمَّتَكَ مِنِّى السَّلاَمَ وَأَخْبِرْهُمْ أَنَّ الْجَنَّةَ طَيِّبَةُ التُّرْبَةِ عَذْبَةُ الْمَاءِ وَأَنَّهَا قِيعَانٌ وَأَنَّ غِرَاسَهَا سُبْحَانَ اللَّهِ وَالْحَمْدُ لِلَّهِ وَلاَ إِلَهَ إِلاَّ اللَّهُ وَاللَّهُ أَكْبَرُ »
+Dari Ibnu Mas’ud, ia berkata, Rasulullah shallallahu wa’alaihi wa sallam bersabda, “Aku pernah bertemu dengan Ibrahim pada malam ketika aku diisra`kan, kemudian ia berkata, ‘Wahai Muhammad, sampaikan salam dariku kepada umatmu, dan beritahukan kepada mereka bahwa Surga debunya harum, airnya segar, dan surga tersebut adalah datar, tanamannya adalah kalimat: Subhaanallaahi wal hamdu lillaahi laa ilaaha illaahu wallaahu akbar (Maha Suci Allah, segala puji bagi Allah, tidak ada tuhan yang berhak disembah kecuali Allah, dan Allah Maha Besar).” (HR. Tirmidzi no. 3462. Syaikh Al Albani mengatakan bahwa hadits ini hasan)
+
+Keenam:
+
+« إِنَّ اللَّهَ اصْطَفَى مِنَ الْكَلاَمِ أَرْبَعاً سُبْحَانَ اللَّهِ وَالْحَمْدُ لِلَّهِ وَلاَ إِلَهَ إِلاَّ اللَّهُ وَاللَّهُ أَكْبَرُ فَمَنْ قَالَ سُبْحَانَ اللَّهِ كَتَبَ اللَّهُ لَهُ عِشْرِينَ حَسَنَةً أَوْ حَطَّ عَنْهُ عِشْرِينَ سَيِّئَةً وَمَنْ قَالَ اللَّهُ أَكْبَرُ فَمِثْلُ ذَلِكَ وَمَنْ قَالَ لاَ إِلَهَ إِلاَّ اللَّهُ فَمِثْلُ ذَلِكَ وَمَنْ قَالَ الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ مِنْ قِبَلِ نَفْسِهِ كُتِبَتْ لَهُ ثَلاَثُونَ حَسَنَةً وَحُطَّ عَنْهُ ثَلاَثُونَ سَيِّئَةً
+Dari Abu Sa’id Al Khudri dan Abu Hurairah, bahwasanya Rasulullah shallallahu ‘alaihi wa sallam bersabda, “Sesungguhnya Allah telah memilih empat perkataan: subhanallah (Maha suci Allah) dan alhamdulillah (segala puji bagi Allah) dan laa ilaaha illa allah (tidak ada sesembahan yang berhak disembah selain Allah) dan Allahu akbar (Allah maha besar). Barangsiapa mengucapkan subhaanallah, maka Allah akan menulis dua puluh kebaikan baginya dan menggugurkan dua puluh dosa darinya, dan barangsiapa mengucapkan Allahu Akbar, maka Allah akan menulis seperti itu juga, dan barangsiapa mengucapkan laa Ilaaha illallah, maka akan seperti itu juga, dan barangsiapa mengucapkan alhamdulillahi Rabbil ‘aalamiin dari relung hatinya maka Allah akan menulis tiga puluh kebaikan untuknya dan digugurkan tiga puluh dosa darinya.” (HR. Ahmad 2/302. Syaikh Syu’aib Al Arnauth mengatakan bahwa sanadnya shahih)
+
+Maksud Dzikir Empat Kalimat Mulia
+
+Yang dimaksud bacaan tasbih (subhanallah = Maha Suci Allah) adalah menyucikan Allah dari segala kekurangan yang tidak layak bagi-Nya.
+Yang dimaksud bacaan tahmid (alhamdulillah = segala puji bagi Allah) adalah menetapkan kesempurnaan pada Allah dalam nama, shifat dan perbuatan-Nya yang mulia.
+Yang dimaksud bacaan tahlil (laa ilaha illallah = tidak ada sesembahan yang berhak disembah selain Allah) adalah berbuat ikhlas dan mentauhidkan Allah serta berlepas diri dari kesyirikan.
+Yang dimaksud bacaan takbir (Allahu akbar = Allah Maha Besar) adalah menetapkan keagungan atau kebesaran pada Allah Ta’ala dan tidak ada yang melebihi kebesarannya.[2]
+Empat kalimat mulia tersebut bisa berfaedah jika bukan hanya di lisan, namun direnungkan maknanya di dalam qolbu, dalam hati yang paling dalam.
+Semoga amalan yang sederhana ini bisa jadi rutinitas kita sehingga lisan ini selalu basah dengan dzikrullah, dzikir pada Allah.
+Segala puji bagi Allah yang dengan nikmat-Nya segala kebaikan menjadi sempurna.
+ 
+Disusun di pagi penuh barokah di Sakan 27, KSU, Ummul Hamam, Riyadh, 21 Syawal 1431 H (30/09/2010)
+Penulis: Muhammad Abduh Tuasikal
+Artikel www.rumaysho.com
+
+
+Sumber : https://rumaysho.com/1277-keutamaan-empat-kalimat-mulia.html</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NT9-oO-rzJ">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Keutamaan Berdzikir" id="X8R-Df-sio">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="S5d-Cw-FHq">
+                                            <connections>
+                                                <segue destination="49e-Tb-3d3" kind="modal" id="kNl-XM-f37"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="pKL-X4-bMc"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="t2t-Wz-seg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3638" y="359"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="yl2-sM-qoP">
+            <objects>
+                <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
+                        <rect key="frame" x="0.0" y="975" width="768" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="WNz-rG-G9T" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
+                        <segue destination="Pyy-lP-Fm6" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+        <!--Count Your Dzikir Menu-->
+        <scene sceneID="Qn3-F8-cfN">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="WNz-rG-G9T" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Count Your Dzikir Menu" image="muslim-tasbih" landscapeImage="muslim-tasbih" selectedImage="muslim-tasbih" id="acW-dT-cKf"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="BGX-la-Cgo">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="rootViewController" id="z0a-bh-uZ2"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="C19-UN-KpM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="748.79999999999995" y="-320.23988005997006"/>
+        </scene>
+        <!--About That-->
+        <scene sceneID="ISs-4q-AVG">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Pyy-lP-Fm6" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="About That" image="003-note" selectedImage="003-note" id="cPa-gy-q4n"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="FDh-ki-Tgx">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="rootViewController" id="lNm-gF-RA5"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8OT-ho-Q1P" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="748.79999999999995" y="359.82008995502252"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="003-email" width="64" height="64"/>
+        <image name="003-note" width="32" height="32"/>
+        <image name="015-tie-1" width="64" height="64"/>
+        <image name="019-smartphone" width="64" height="64"/>
+        <image name="Back70" width="389" height="695"/>
+        <image name="Button" width="205" height="62"/>
+        <image name="Hamdalah" width="233" height="217"/>
+        <image name="Profile" width="4000" height="4000"/>
+        <image name="muslim-tasbih" width="32" height="32"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="kNl-XM-f37"/>
+        <segue reference="GxO-5z-w7V"/>
+    </inferredMetricsTieBreakers>
+</document>
